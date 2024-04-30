@@ -32,7 +32,7 @@ This will install all necessary dependencies listed in the `package.json` file.
 
 ## Screenrecord of the Project:
 
-
+https://github.com/theayushmajumdar/ecommm_assignment2-1-5-24-/blob/main/public/ecomm-assignment.mp4
 
 
 

@@ -28,25 +28,14 @@ This will install all necessary dependencies listed in the `package.json` file.
 - React.js
 - Vite.js
 - Tailwind CSS (CSS framework)
-- Auth0 (User authentication)
+- Auth using context Api and local storage (User authentication)
 
-### User Authentication
-This project utilizes Auth0 for user authentication. To add user authentication to the project after downloading the zip file, follow these steps:
+## Screenrecord of the Project:
 
-1. Visit Auth0 website and sign up for an account.
-Once logged in, create a new project in the Auth0 dashboard.
-2. Follow the instructions provided by Auth0 to configure your project settings, including setting up your application's callback URLs and allowed origins.
-3. Install the Auth0 React SDK in your project by running:
 
- ```bash
-   npm install @auth0/auth0-react
-```
-or
-```bash
-yarn add @auth0/auth0-react
-```
 
-Integrate Auth0 authentication into your React components using the provided SDK methods, such as useAuth0 hook for accessing authentication state and methods like login and logout.
+
+
 ## Getting Started
 
 To run the project locally on your system, follow these steps:

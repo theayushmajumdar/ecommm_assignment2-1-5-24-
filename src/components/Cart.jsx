@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import { useAuth } from "./auth/AuthContext";
 import {
   selectCartItems,
   selectCartState,
@@ -9,6 +10,7 @@ import {
   setCloseCart,
   setGetTotals
 } from "../app/CartSlice.js";
+import { useNavigate } from "react-router-dom";
 import CartCount from "./cart/CartCount";
 import CartEmpty from "./cart/CartEmpty";
 import CartItem from "./cart/CartItem";
@@ -20,7 +22,7 @@ const Cart = () => {
   const totalAmount = useSelector(selectTotalAmount);
   const totalQTY = useSelector(selectTotalQTY);
   
-  // console.log(cartItems)
+  
 
   useEffect(() => {
     dispatch(setGetTotals())
@@ -81,3 +83,4 @@ const Cart = () => {
 };
 
 export default Cart;
+
